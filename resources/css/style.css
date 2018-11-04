@@ -53,8 +53,12 @@ nav span {
 
 }
 
-.box-content {
+.container {
   border: thick solid black;
-  height: 100px;
-    margin: 0 auto;
+  margin: 100px auto;
+
+}
+
+.box-content {
+
 }
