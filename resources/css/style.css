@@ -129,41 +129,53 @@ text-align: center;
 
 .location {
   background-color: black;
-  height: 80px;
-  width: 30%;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 20.5%;
   margin-top: 3rem;
   position: relative;
   bottom: 100px;
-  left: 180px;
-
+  left: 200px;
 }
 
 .location p {
   color: white;
-  text-align: center;
   padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   font-size: 18px;
 }
 
 .hours {
   background-color: black;
-  height: 40px;
-  width: 296px;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 20.5%;
   position: relative;
-  bottom: 100px;
-  left: 649px;
+  bottom: 225px;
+  left: 820px;
   margin-top: 3rem;
 }
 
 .hours p {
   font-weight: bold;
   color: white;
-  text-align: center;
   padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+}
+
+.coordinates span {
+  color: black;
+  position: relative;
+  left: 187px;
+  bottom: 95px;
+  width: 35%;
+}
+
+.time span {
+  color: black;
+  position: relative;
+  left: 810px;
+  bottom: 220px;
 }
 
 .copyright {
