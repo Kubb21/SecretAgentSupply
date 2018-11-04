@@ -1,13 +1,24 @@
 html {
   font-family: Helvetica;
+  font-size: 18px;
 }
 
 header {
+  display: flex;
   background-color: black;
 }
 
-header span {
+header img,
+span {
+  padding: 0.66rem 1rem 0.66rem 0.55rem;
+  height: 1.5rem;
+  position: relative;
+  left: 225px;
+  align-items: center;
+  justify-content: center;
   color: white;
+  padding: 0.66rem;
+  font-size: 1rem;
 }
 
 .main {
@@ -16,28 +27,37 @@ header span {
   background-repeat: no-repeat;
   height: 500px;
   background-size: cover;
+  height: 25rem;
 }
 
 .img-container {
-  height: 100px;
-  wdith: 200px;
+  margin-top: 9rem;
+  margin-left: 220px;
+  height: 200px;
   background-color: black;
-  margin: 20px 40px;
+  width: 20rem;
 }
 
-.img-content span {
+.img-content h1 {
   color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-left: 3rem;
 }
 
 .img-content h2 {
   font-family: Helvetica;
-  font-weight: bold;
+  font-size: 2rem;
   color: white;
+  font-weight: bold;
+  padding-left: 3rem;
+  padding-top: 0.25rem;
 }
 
 nav {
   display: flex;
-  background-color: red;
+  background-color: firebrick;
   height: 30px;
   align-items: center;
   justify-content: space-around;
@@ -50,15 +70,80 @@ nav span {
 
 .gadgets {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 
 }
 
 .container {
-  border: thick solid black;
-  margin: 100px auto;
-
+  border: 3px solid black;
+  width: 30%;
 }
 
-.box-content {
 
+.text {
+background-color: black;
+height: 40px;
+width: 296px;
+color: white;
+position: relative;
+bottom: 100px;
+left: 38px;
+text-align: center;
 }
+
+.text-two {
+  background-color: black;
+  height: 40px;
+  width: 296px;
+  color: white;
+  position: relative;
+  bottom: 150px;
+  left: 433px;
+  text-align: center;
+}
+
+.text-three {
+  background-color: black;
+  height: 40px;
+  width: 450px;
+  color: white;
+  position: relative;
+  bottom: 180px;
+  left: 866px;
+  text-align: center;
+}
+
+.location {
+  background-color: black;
+  height: 40px;
+  width: 296px;
+  color: white;
+  position: relative;
+  bottom: 100px;
+  left: 38px;
+  text-align: center;
+}
+
+.hours {
+  background-color: black;
+  height: 40px;
+  width: 296px;
+  color: white;
+  position: relative;
+  bottom: 140px;
+  left: 649px;
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+}
+
+.copyright {
+  background-color: black;
+  color: white;
+  height: 150px;
+}
+
+@media only screen and ()
