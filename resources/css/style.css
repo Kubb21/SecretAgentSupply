@@ -152,7 +152,7 @@ text-align: center;
   padding-bottom: 1rem;
   width: 20.5%;
   position: relative;
-  bottom: 225px;
+  bottom: 210px;
   left: 820px;
   margin-top: 3rem;
 }
@@ -167,7 +167,7 @@ text-align: center;
   color: black;
   position: relative;
   left: 187px;
-  bottom: 95px;
+  bottom: 195px;
   width: 35%;
 }
 
@@ -183,6 +183,48 @@ text-align: center;
   color: white;
   height: 5rem;
   text-align: left;
+
 }
 
-@media only screen and ()
+@media only screen and (max-width: 960px) {
+  .container,
+  .text,
+  .container img {
+    width: 47%;
+  }
+
+  .location,
+  .hours p {
+    width: 35%;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .img-content h1 {
+    font-family: helvetica;
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .img-content h2 {
+    font-family: helvetica;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .main {
+    height: 15rem;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .container,
+  .text,
+  .container img {
+    width: 90%;
+  }
+}
