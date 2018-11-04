@@ -181,7 +181,8 @@ text-align: center;
 .copyright {
   background-color: black;
   color: white;
-  height: 150px;
+  height: 5rem;
+  text-align: left;
 }
 
 @media only screen and ()
