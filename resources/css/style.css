@@ -58,14 +58,14 @@ span {
 nav {
   display: flex;
   background-color: firebrick;
-  height: 30px;
-  align-items: center;
-  justify-content: space-around;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+
 }
 
 nav span {
   color: white;
-  padding-right: 130px;
+  padding-right: 100px;
 }
 
 .gadgets {
